@@ -82,11 +82,11 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-war-plugin</artifactId>
-				<version>RELEASE</version>
+				<version>3.0.0</version>
 				<configuration>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 					<outputDirectory>target</outputDirectory>
-					<warName>MottoROOT</warName>
+					<outputFileNameMapping>MottoROOT</outputFileNameMapping>
 				</configuration>
 			</plugin>
 		</plugins>
